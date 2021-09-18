@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Freigeist XWide';
+    src: url('FreigeistXWide-Medium.woff2') format('woff2'),
+        url('FreigeistXWide-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,315 @@
+/* я для подключения шрифтов &display=swap&subset=cyrillic-ext"
+ */
+
+/* привет я шрифт из fontsWeb.pro */
+@font-face {
+	font-family: "Freigeist XWide";
+	src: url("../fonts/FreigeistXWide-Medium.woff2") format("woff2"),
+		url("../fonts/FreigeistXWide-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+/* привет я шрифт GoogleFonts */
+/* font-family: 'Arvo', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap");
+
+/* обнуление стилей */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html {
+	font-size: 14px;
+}
+
+body {
+	line-height: 1.2;
+}
+/* ----------------------------------------------- */
+
+.header__title {
+	text-transform: uppercase;
+	font-size: 24px;
+	text-shadow: 4px 3px 3px rgba(49, 47, 47, 0.4);
+	line-height: 60px;
+	text-indent: 25px;
+}
+
+.header__menu > a {
+	color: indigo;
+	text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Arvo", serif;
+	font-size: 20px;
+	text-indent: 30px;
+}
+
+.main__text {
+	font-family: "Freigeist XWide";
+	font-size: 13px;
+	text-align: justify;
+	white-space: 30px;
+	text-indent: 15px;
+}
+
+.main__text-italic {
+	font-family: "Arvo", serif;
+	font-style: italic;
+	word-spacing: 7px;
+	text-align: justify;
+	line-height: 20px;
+}
+
+.main__title2 {
+	text-transform: capitalize;
+	text-shadow: 2px 0px 10px #10d3d3;
+	line-height: 40px;
+}
+
+.main__title3 {
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 35px;
+	text-shadow: 350px -0.5px 0px rgba(65, 55, 55, 0.33);
+}
+
+p > span {
+	font-weight: 700;
+	font-family: "Arvo", serif;
+	font-size: 1.2rem;
+	color: rgba(136, 6, 6, 0.705);
+}
+
+/* .main__img1-css {
+	text-align: right;
+} */
+
+.main__example1 {
+	font-size: 1em;
+	color: #10d3d3;
+}
+.main__example2 {
+	font-size: 120%;
+	color: rgba(9, 167, 179, 0.931);
+}
+.main__example3 {
+	font-size: 16px;
+	color: rgba(7, 142, 151, 0.856);
+}
+.main__example4 {
+	font-size: larger;
+	color: rgba(6, 118, 126, 0.856);
+}
+.main__example5 {
+	font-size: small;
+	color: rgba(2, 56, 59, 0.856);
+}
+
+.main__block-img {
+	text-align: center;
+}
+
+.test__weigth {
+	font-family: "Freigeist XWide";
+}
+.main__example6 {
+	font-weight: lighter;
+	text-decoration: overline;
+}
+.main__example7 {
+	font-weight: 100;
+
+	text-decoration: underline;
+}
+.main__example8 {
+	font-weight: 400;
+	text-decoration: line-through;
+}
+.main__example9 {
+	font-weight: 700;
+	/* text-decoration-line: red; */
+	/* text-decoration-color: red; */
+	text-decoration: line-through;
+}
+
+.main__example10 {
+	font-weight: 900;
+	text-decoration: none;
+}
+/* Вывод по weigth -  теперь понятно  : не подключив разное написание шрифтов - сss свойтвами это не поправишь!  */
+
+.main__example11 {
+	font-family: verdana, sans-serif;
+}
+.main__example12 {
+	font-family: "verdana", fantasy;
+}
+.main__example13 {
+	font-family: "Grechen Fuemen", cursive;
+	font-weight: 800;
+}
+.main__example14 {
+	font-family: "Grechen Fuemen", cursive;
+}
+.main__example15 {
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.main__example16 {
+	font-family: "Grechen Fuemen", cursive;
+	font-style: italic;
+}
+
+.main__example17 {
+	color: #000000;
+}
+.main__example18 {
+	color: red;
+}
+.main__example19 {
+	color: rgba(10, 10, 241, 0.637);
+}
+.main__example20 {
+	color: rgb(14, 99, 35);
+}
+.main__example {
+	color: hsla(64, 100%, 29%, 0.61);
+}
+
+.main__test2 {
+	font-family: "Grechen Fuemen", cursive;
+}
+.main__example21 {
+	text-decoration: none;
+	text-shadow: -0.2px 0.2px 30px rgba(10, 10, 241, 0.9);
+}
+.main__example22 {
+	text-decoration: underline;
+	text-shadow: -0.2px 0.2px 30px rgba(10, 10, 241, 0.9);
+}
+.main__example23 {
+	text-decoration: line-through;
+	text-shadow: -0.2px 0.2px 30px rgba(10, 10, 241, 0.9);
+}
+.main__example24 {
+	text-decoration: none;
+	text-shadow: -0.2px 0.2px 30px rgba(10, 10, 241, 0.9);
+}
+.main__example25 {
+	text-decoration: overline;
+	text-shadow: -0.2px 0.2px 30px rgba(10, 10, 241, 0.9);
+}
+
+.main__test4 {
+	color: rgba(6, 102, 49, 0.837);
+}
+
+.main__example26 {
+	line-height: 25px;
+	text-transform: uppercase;
+}
+.main__example27 {
+	text-transform: capitalize;
+}
+.main__example28 {
+	text-transform: lowercase;
+}
+.main__example29 {
+	text-transform: uppercase;
+	text-transform: none;
+	line-height: 25px;
+}
+
+.main__test5 {
+	color: blue;
+}
+.main__example30 {
+	white-space: nowrap;
+	letter-spacing: 5px;
+}
+.main__example31 {
+	white-space: pre;
+	word-spacing: 3px;
+}
+.main__example32 {
+	white-space: pre-wrap;
+	letter-spacing: -2px;
+}
+.main__example33 {
+	white-space: normal;
+}
+
+.main__example35 {
+	text-align: right;
+	color: coral;
+}
+.main__example36 {
+	text-align: center;
+	color: #000;
+}
+.main__example37 {
+	text-align: justify;
+	color: royalblue;
+}
+
+.main__example38 {
+	text-align: left;
+}
+
+.main__example39 {
+	line-height: 120%;
+}
+.main__example40 {
+	line-height: 16px;
+	text-align: left;
+	color: pink;
+}
+.main__example41 {
+	text-align: right;
+	line-height: 3em;
+}
+.main__example42 {
+	text-align: justify;
+	line-height: normal;
+}
