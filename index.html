@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/style.css" />
+	<title>Home work 4</title>
+</head>
+
+<body>
+	<header class="header__block">
+		<h1 class="header__title" id="main_title">CSS - Работа с текстом</h1>
+		<div class="header__menu">
+			<a href="https://docs.emmet.io/cheat-sheet/">Главная</a> /
+			<a href="https://docs.emmet.io/cheat-sheet/" class="header__menu"> HTML и CSS</a>
+		</div>
+	</header>
+
+	<main class="main">
+		<p class="main__text-italic">
+			На этом уроке мы познакомимся с основными приёмами для работы с текстом с помощью средств CSS.
+		</p>
+
+		<p class="main__text">
+			Задавать стили CSS к тексту можно на уровне элемента <span class="main__item">body </span> (для всей
+			веб-страницы), <span class="main__item">span </span> элемента <span class="main__item">p </span> (для
+			абзаца), элемента span (для выделенного фрагмента текста) или любого другого элемента HTML.
+		</p>
+
+		<h2 class="main__title2">Основные свойства CSS для работы с текстом</h2>
+
+		<h3 class="main__title3">1. Свойство font-size</h3>
+
+		<p class="main__text">
+			Свойство <span class="main__item">font-size </span> изменяет размер шрифта. Оно задаётся с помощью значения
+			и единицы измерения (<span class="main__item">em, px, pt, %</span>). Единицы измерения
+			<span class="main__item">em и % </span> являются относительными и зависят от размера шрифта установленного в
+			документе. Единицы измерения <span class="main__item">px и pt </span> являются абсолютными и их размер
+			зависит от разрешения экрана. Также у данного свойства есть предопределенные значения
+			<span class="main__item">small и larger</span>, которые соответственно уменьшают или увеличивают текст по
+			отношению к базовому.
+		</p>
+
+		<div class="main__block-img">
+			<span class="main__img1"><img class="main__img-css1" src="img/css1.png" title="schem css 1"
+					alt="scheme css"></span>
+		</div>
+
+		<p class="main__example1">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example2">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example3">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example4">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example5">Lorem ipsum dolor sit amet.</p>
+
+		<h3 class="main__title2">2. Свойство font-weight</h3>
+
+		<p class="main__text">
+			Свойство <span class="main__item">font-weight</span> изменяет жирность шрифта. Свойство
+			<span class="main__item">font-weight</span> имеет 2 часто используемых значения:
+			<span class="main__item">normal </span> (обычное) и <span class="main__item">bold </span> (жирное).
+			Остальные значения используются очень редко, перечислим их
+			<span class="main__item">bolder и lighter </span>0 до 900 с шагом 100 (100 – самое тонкое начертание, 900 –
+			самое жирное начертание), перечислим их <span class="main__item">bolder и lighter </span>.
+		</p>
+		<div class="main__block-img">
+			<span class="main__img2"><img class="main__img-css2" src="img/css2.png" alt="schem css"> </span>
+		</div>
+
+
+		<div class="test__weigth">
+			<p class="main__example6">Lorem ipsum dolor sit amet.</p>
+			<p class="main__example7">Lorem ipsum dolor sit amet</p>
+			<p class="main__example8">Lorem ipsum dolor sit amet</p>
+			<p class="main__example9">Lorem ipsum dolor sit amet</p>
+			<p class="main__example10">Lorem ipsum dolor sit amet</p>
+		</div>
+
+		<h3 class="main__title3">3. Свойство font-style</h3>
+
+		<p class="main__text">
+			Свойство <span class="main__item">font-family </span> изменяет шрифт или список шрифтов с помощью которых
+			отображается текст. В качестве значений свойство <span class="main__item">font-family </span> принимает
+			названия шрифтов (например: font-family: "Tahoma", "Arial") или предопределенные названия группы шрифтов
+			(serif, sans-serif, monospace, fantasy, cursive).
+		</p>
+
+		<p class="main__example11">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example12">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example13">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example14">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example15">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example16">Lorem ipsum dolor sit amet.</p>
+
+		<h3 class="main__title3">5. Свойство color</h3>
+
+		<p class="main__text">
+			Свойство <span class="main__item">color </span> изменяет цвет шрифта. Установить цвет можно несколькими
+			способами: #ff0000 (шестнадцатеричное значение цвета), orange (зарезервированное название цвета),
+			rgb(120,17,90) (RGB значение).
+		</p>
+
+		<p class="main__example17">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example18">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example19">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example20">Lorem ipsum dolor sit amet.</p>
+		<p class="main__example">Lorem ipsum dolor sit amet.</p>
+
+		<h3 class="main__title3">6. Свойство text-decoration</h3>
+
+		<p class="main__text">
+			Свойство <span class="main__item">text-decoration </span> можно использовать для декоративного оформления
+			текста. В качестве значений свойства <span class="main__item">text-decoration </span> можно использовать
+			следующие: none (без декоративного оформления), underline (подчёркивание), overline (линия над текстом),
+			line-through (зачёркивание), blink (эффект мигания).
+		</p>
+		<div class="main__test2">
+			<p class="main__example21">Lorem ipsum dolor sit amet.</p>
+			<p class="main__example22">Lorem ipsum dolor sit amet.</p>
+			<p class="main__example23">Lorem ipsum dolor sit amet.</p>
+			<p class="main__example24">Lorem ipsum dolor sit amet.</p>
+			<p class="main__example25">Lorem ipsum dolor sit amet.</p>
+		</div>
+
+		<h3 class="main__title3">7. Свойство text-transform</h3>
+
+		<p class=" main__text">
+			Свойство <span class="main__item">text-transform</span> управляет регистром символов. В качестве значений
+			свойства <span class="main__item">text-transform</span> можно использовать следующие: none (по
+			умолчанию),
+			lowercase (переводит все символы в строчные), uppercase (переводит все символы в прописные), capitalize
+			(каждое слово начинается с прописного символа).
+		</p>
+		<div class="main__test4">
+
+			<p class="main__example26">Lorem ipsum dolor sit amet.</p>
+			<p class="main__example27">Lorem ipsum dolor sit amet.</p>
+			<p class="main__example28">Lorem ipsum dolor sit amet.</p>
+			<p class="main__example29">Lorem ipsum dolor sit amet.</p>
+		</div>
+
+		<h3 class="main__title3">8. Свойство white-space</h3>
+		<p class="main__text">
+			При обработке текста браузер не отображает больше одного пробела между словами, а также игнорирует
+			переносы
+			строк, которые вы выполнили в HTML коде. При помощи свойства <span class="main__item">white-space</span>
+			вы
+			можете настроить поведение браузера с помощью следующих значений:
+			<span class="main__item">normal </span> (по умолчанию), nowrap (не переносит текст, пока не встретит
+			тег
+			br), pre (отображает текст как в коде на HTML), <span class="main__item">pre-wrap </span> (отображает
+			все
+			пробелы между словами и переносит текст, если он не помещается в контейнер).
+		</p>
+		<div class="main__test5">
+			<p class="main__example30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nisi tempora.
+				Vel velit reprehenderit autem culpa, molestias aliquam, doloremque, vero rerum delectus consequuntur
+				ducimus. Autem minima aperiam reprehenderit laborum rem?</p>
+			<p class="main__example31">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa reprehenderit
+				voluptatum laudantium, libero hic nihil praesentium officia accusantium sunt, omnis recusandae doloremque
+				sed rem, eos nisi tempora debitis soluta! Dignissimos!</p>
+			<p class="main__example32">Lorem ipsum dolor sit amet</p>
+			<p class="main__example33">
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus veniam, architecto aliquid ut ullam,
+				sit obcaecati, consequatur sunt esse error dolor quia alias maiores optio doloremque quos magni dolorum
+				vitae!
+			</p>
+			<p class="main__example34">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptatem rem,
+				inventore rerum pariatur magnam nihil libero autem neque, aperiam sed laudantium labore assumenda vitae
+				tempora, iure at nulla consectetur.</p>
+		</div>
+		<h3 class="main__title3">9. Свойство text-align</h3>
+
+		<p class="main__text">
+			Свойство <span class="main__item">text-align </span> предназначено для выравнивания текста в
+			горизонтальном
+			направлении. Значения свойства <span class="main__item">text-align </span> указывают, что текст будет
+			выровнен: left (по левому краю), center (по центру), right (по правому краю), justify (по ширине, т.е.
+			одновременно по левому и правому краям).
+		</p>
+
+		<p class="main__example35">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint possimus consequuntur eum amet exercitationem
+			suscipit debitis optio? Ducimus exercitationem unde repudiandae blanditiis, officia debitis aspernatur numquam
+			voluptate corporis repellendus accusamus!
+		</p>
+		<p class="main__example36">
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae facilis ipsam quae voluptate, qui,
+			voluptates, temporibus dolor minima laudantium necessitatibus tenetur error ab. Eligendi et, aperiam odit eius
+			incidunt sequi.
+		</p>
+		<p class="main__example37">
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa dolorum consequatur ut velit numquam, non ipsa
+			cupiditate soluta omnis sit natus rerum inventore, beatae, minus ratione! Optio inventore ipsum quisquam.
+		</p>
+		<p class="main__example38">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, asperiores, voluptatum recusandae doloribus
+			veritatis rem maxime deleniti eligendi dolor suscipit similique perspiciatis eaque quo temporibus ratione ad
+			ipsa sed voluptates!
+		</p>
+
+		<h3 class="main__title3">11. Свойство line-height</h3>
+		<p class="main__text">
+			Свойство <span class="main__item">line-height </span> предназначено для задания высоты строки, которая
+			влияет на расстояние между строчками текста. В качестве значений свойства
+			<span class="main__item">line-height </span> можно использовать следующие: число (множитель по
+			отношению
+			к
+			значению высоты строки по умолчанию), проценты (например: 120% от высоты строки по умолчанию), px
+			(например:
+			16px), em (например: 3em), зарезервированное слово normal (автоматический расчёт высоты).
+		</p>
+		<p class="main__example39">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consequuntur at modi explicabo tenetur a ipsum,
+			ea cum ullam vel expedita sequi beatae non. Mollitia accusantium sint inventore commodi repudiandae.
+		</p>
+		<p class="main__example40">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam a vitae quos praesentium molestiae, ut ullam
+			explicabo placeat aut culpa consequuntur, sapiente doloremque natus earum odit est distinctio quas neque.
+		</p>
+		<p class="main__example41">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facere fugit vitae cupiditate officia quod
+			error natus quos non tempore. Dolor illum molestias iste expedita alias consequatur, obcaecati qui laudantium!
+		</p>
+		<p class="main__example42">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cumque ratione nemo ipsam et. Odio, laborum
+			aspernatur magni ad iusto qui libero, deleniti dolorem inventore dolore distinctio non, minus cupiditate.
+		</p>
+		<p class="main__example43">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus mollitia corporis veniam sint similique nam
+			vitae omnis minus earum fugiat, ratione, itaque consectetur, maiores excepturi quasi dolore nisi maxime eaque?
+		</p>
+	</main>
+	<footer>
+
+		<div class="footer__menu">
+			<ul class="footer__block">
+				<li class="footer__list"><a href="#main_title" class="footer__link">Начало Статьи</a></li>
+				<!-- <li class="footer__list"><a href="#2" class="footer__link">Середина статьи</a></li> -->
+			</ul>
+		</div>
+		<p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss"
+					alt="Правильный CSS!" />
+			</a>
+		</p>
+
+	</footer>
+</body>
+
+</html>
